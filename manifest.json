@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Doctorpus Assets",
+    "description": "A Deeeep.io Asset Pack!",
+    "version": "1.0.0",
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "permissions": [
+        "webRequest",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://deeeep.io/*",
+        "https://mapmaker.deeeep.io/*",
+        "https://beta.deeeep.io/*",
+        "https://cdn.deeeep.io/*"
+    ],
+    "action": {
+        "default_icon": {
+            "128": "Docassetsicon.png"
+        },
+        "default_title": "Click to turn Doctorpus Assets on/off"
+    }
+}
