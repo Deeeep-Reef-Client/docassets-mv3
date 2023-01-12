@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Doctorpus Assets",
-    "description": "A Deeeep.io Asset Pack!",
+    "description": "A Deeeep.io Asset Pack! Extension made by Deeeep.io Reef Client.",
     "version": "1.0.0",
     "background": {
         "service_worker": "background.js",
@@ -9,7 +9,9 @@
     },
     "permissions": [
         "webRequest",
-        "storage"
+        "storage",
+        "declarativeNetRequest",
+        "declarativeNetRequestWithHostAccess"
     ],
     "host_permissions": [
         "https://deeeep.io/*",
